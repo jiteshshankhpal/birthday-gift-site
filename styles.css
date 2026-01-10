@@ -10,10 +10,12 @@ h1, h2, h3, h4, p {
 }
 
 #bff-img {
-    width: 150px;
-    border-radius: 50%;
+    width: 350px;
+    height: 350px;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 4px;
 }
 
 #bday-age {
@@ -67,15 +69,15 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-hot:hover {
-    background-image: url("images/hot.gif");
+    background-image: url("images/gossip.gif");
 }
 
 #gift-img-genius:hover {
-    background-image: url("images/genius.gif");
+    background-image: url("images/exqu.gif");
 }
 
 #gift-img-badass:hover {
-    background-image: url("images/badass.gif");
+    background-image: url("images/wishing.gif");
 }
 
 #gift-img-cheers:hover {
@@ -103,3 +105,9 @@ https://scrimba.com/learn/htmlandcss
 Text:
 Want to create your own Birthday GIFt site? Take this HTML & CSS course.
 */
+
+.image-grid {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
